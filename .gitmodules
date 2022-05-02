@@ -1,0 +1,3 @@
+[submodule "groceries-server-hartzler"]
+	path = groceries-server-hartzler
+	url = https://git.heroku.com/groceries-server-hartzler.git

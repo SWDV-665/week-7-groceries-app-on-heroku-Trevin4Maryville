@@ -1,0 +1,16 @@
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="grocery">
+      <ion-icon name="bag"></ion-icon>
+      <ion-label>Groceries</ion-label>
+      <ion-badge *ngIf="getItemLength() > 0">{{ getItemLength() }}</ion-badge>
+    </ion-tab-button>
+
+    <ion-tab-button tab="about_tab">
+      <ion-icon name="information-circle"></ion-icon>
+      <ion-label>About</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>
